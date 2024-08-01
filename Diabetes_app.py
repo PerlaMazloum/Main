@@ -9,9 +9,9 @@ from prophet import Prophet
 import pycountry
 
 # Load datasets
-fertility_data  = pd.read_csv('/content/drive/MyDrive/Fertility.csv')
-death_data  = pd.read_csv('/content/drive/MyDrive/Death.csv')
-life_expectancy_data  = pd.read_csv('/content/drive/MyDrive/Life Expectancy.csv')
+fertility_data  = pd.read_csv('C:\Users\User\Desktop\Fertility.csv')
+death_data  = pd.read_csv('C:\Users\User\Desktop\Death.csv')
+life_expectancy_data  = pd.read_csv('C:\Users\User\Desktop\Life Expectancy.csv')
 
 
 # Sidebar for dataset selection
