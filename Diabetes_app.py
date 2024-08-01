@@ -1,7 +1,7 @@
 #%%writefile app.py
 import streamlit as st
 import pandas as pd
-import seaborn as sns
+#import seaborn as sns
 import matplotlib.pyplot as plt
 import altair as alt
 import plotly.express as px
