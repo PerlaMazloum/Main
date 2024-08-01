@@ -9,7 +9,7 @@ from prophet import Prophet
 import pycountry
 
 # Load datasets
-fertility_data  = pd.read_csv('C:\Users\User\Desktop\Fertility.csv')
+fertility_data  = pd.read_csv(r'C:\Users\User\Desktop\Fertility.csv')
 death_data  = pd.read_csv('C:\Users\User\Desktop\Death.csv')
 life_expectancy_data  = pd.read_csv('C:\Users\User\Desktop\Life Expectancy.csv')
 
